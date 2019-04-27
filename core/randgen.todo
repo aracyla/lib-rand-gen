@@ -1,0 +1,20 @@
+=========
+LIST(aracyla)
+=========
+
+TODO: Makefile
+	- Create a makefile for this project.
+
+TODO: U-tests
+	- Create and perform unit tests.
+
+TODO: Mem-leaks
+	- Generate valgrind logs for the unit.
+
+TODO: Random double
+	- Function to generate a random double.
+	- Function to generate a random float arr.
+	- Function to generate a random double matrix.
+
+TODO: Ide/Text editor
+	- Set up atom for this project.
