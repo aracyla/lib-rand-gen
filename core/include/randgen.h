@@ -14,7 +14,7 @@
 
 
 /*!
- Generate a random array of numbers. Note that this array should be freed after usage.
+ Generate a random array of int numbers. Note that this array should be freed after usage.
  @param[in] l Lowest number possible that should be generated.
  @param[in] u Highest number possible that should be generated.
  @param[in] n Size of the array.
@@ -25,7 +25,7 @@ int* rand_int_arr(int l, int u, int n);
 
 
 /*!
- Generate a random matrix rows x cols.
+ Generate a random int matrix rows x cols.
  @param[in] l Lowest number possible that should be generated.
  @param[in] u Highest number possible that should be generated.
  @param[in] rows Number of rows of the matrix.
@@ -43,4 +43,24 @@ int** rand_int_mat(int l, int u, int rows, int cols);
 */
 void free_rand_mat(void** matrix, int rows);
 
+/*!
+ Generate a random array of double numbers. Note that this array should be freed after usage.
+ @param[in] l Lowest number possible that should be generated.
+ @param[in] u Highest number possible that should be generated.
+ @param[in] n Size of the array.
+ @return An array of ints containing n elements.
+ @author aracyla
+*/
+double* rand_float_arr(double l, double u, int n);
+
+/*!
+ Generate a random double matrix rows x cols. Note that free_rand_mat should be called to free the matrix
+ @param[in] l Lowest number possible that should be generated.
+ @param[in] u Highest number possible that should be generated.
+ @param[in] rows Number of rows of the matrix.
+ @param[in] cols Number of cols of the matrix.
+ @return A matrix of ints rows x cols.
+ @author aracyla
+*/
+double** rand_float_mat(double l, double u, int rows, int cols);
 #endif
