@@ -3,7 +3,8 @@ LIST(aracyla)
 =========
 
 TODO: Makefile
-	- Create a makefile for this project.
+	- Create a makefile for this project[DONE].
+	- Still need to test and generate test files.
 
 TODO: U-tests
 	- Create and perform unit tests.
@@ -16,5 +17,5 @@ TODO: Random double
 	- Function to generate a random float arr.
 	- Function to generate a random double matrix.
 
-TODO: Ide/Text editor
+TODO/DONE: Ide/Text editor
 	- Set up atom for this project.
