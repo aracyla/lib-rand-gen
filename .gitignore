@@ -2,4 +2,6 @@ build/*
 lib/*
 bin/*
 
+test/*.out
+
 .DS_Store
