@@ -1,4 +1,4 @@
-#include "randgen.h"
+#include "../include/randgen.h"
 
 int* rand_int_arr(int l, int u, int n){
     int i, *r;
@@ -11,7 +11,7 @@ int* rand_int_arr(int l, int u, int n){
     return r;
 }
 
-double* rand_float_arr(double l, double u, int n){
+double* rand_double_arr(double l, double u, int n){
     int i;
     double *r;
     srand(time(NULL));
@@ -46,7 +46,7 @@ int** rand_int_mat(int l, int u, int rows, int cols){
     return a;
 }
 
-double** rand_int_mat(double l, double u, int rows, int cols){
+double** rand_double_mat(double l, double u, int rows, int cols){
     double **a;
     int i, j;
 

@@ -51,7 +51,7 @@ void free_rand_mat(void** matrix, int rows);
  @return An array of ints containing n elements.
  @author aracyla
 */
-double* rand_float_arr(double l, double u, int n);
+double* rand_double_arr(double l, double u, int n);
 
 /*!
  Generate a random double matrix rows x cols. Note that free_rand_mat should be called to free the matrix
@@ -62,5 +62,5 @@ double* rand_float_arr(double l, double u, int n);
  @return A matrix of ints rows x cols.
  @author aracyla
 */
-double** rand_float_mat(double l, double u, int rows, int cols);
+double** rand_double_mat(double l, double u, int rows, int cols);
 #endif
