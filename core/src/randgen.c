@@ -6,7 +6,7 @@ int* rand_int_arr(int l, int u, int n){
     r = (int*)malloc(sizeof(int)*n);
     if(!r) return NULL;
     for(i = 0; i < n; i++){
-        r[i] = l+rand()%(abs(u-l));
+        r[i] = (int)l+rand()%(abs(u-l));
     }
     return r;
 }
@@ -39,7 +39,7 @@ int** rand_int_mat(int l, int u, int rows, int cols){
             return NULL;
         }
         for(j = 0; j < cols; j++){
-            a[i][j] = l+rand()%(abs(u-l));;
+            a[i][j] = (int)l+rand()%(abs(u-l));;
         }
     }
 
